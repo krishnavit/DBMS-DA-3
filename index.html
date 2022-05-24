@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS DA-3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="contact-form">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h1>Contact form</h1>
+            <p><center>by Kotha Anjali - 21MIS1015</center></p>
+            <input class="name" type="name" id="name" placeholder="Enter Name" required>
+            <input class="email" type="email" id="email" placeholder="Enter Email" required>
+            <textarea class="message" id="message" rows="5" placeholder="Enter the message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        </form>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase.js"></script>
+    <script src="app.js"></script> 
+</body>
+</html>
